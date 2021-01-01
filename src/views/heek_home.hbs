@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEEK
+
+  </title>
+  <
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="icon" href="./heek.ico" type="image/icon">
+ 
+ </head>
+ <body>
+  
+  
+  <header>
+    
+   <div id="date"></div>
+    
+    <ul class="nav">
+      <li><a>HOME</a></li>
+      <li><a>ABOUT US</a></li>
+      <li><a>CONTACT</a></li>
+    </ul>
+  </header>
+
+  <div class="main">
+    <h1>
+      HEEK
+    </h1>
+    <p>
+      welcome to the future {{name}}
+    </p>
+    
+    <div class="container">
+      <div class="slider">
+        <div class="msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum rem voluptatem alias est, ipsa dolores unde obcaecati dolorum nobis impedit vero! Consectetur, quas?</div>
+        <div class="msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa fugiat adipisci incidunt id architecto nulla, quam voluptatum maxime hic, fuga provident in quod.</div>
+        <div class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam nostrum consequatur laudantium! Et sit quae quas quos dignissimos quisquam, blanditiis quam architecto?</div>
+        <div class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa eos doloribus porro, delectus et, debitis quisquam, veritatis fuga harum facere id minima.</div>
+      </div>
+    </div>
+
+  
+
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <footer id="foot">
+      <div>
+        <ul id="icons">
+          <li><a href="https://twitter.com/_daniyalnawaz_" style="color:#00B6F1;"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/_daniyalnawaz_/" style="color:#2C6A93;"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/daniyalnawaz-heek" style="color:#040204"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      
+    </footer>
+    <script>
+      function get(){
+      
+     
+      document.getElementById("date").innerHTML= new Date().toDateString();
+      }
+      setInterval(get,1000);
+
+
+      /*function icon_in(){
+        var foot = document.getElementById("foot");
+        foot.style.transform="scaleX(1.3)";
+      }
+      function icon_out(){
+        var foot = document.getElementById("foot");
+        foot.style.transform="scaleX(1)";
+
+      }
+      var foot=document.getElementById("foot");
+      foot.addEventListener("mouseover",icon_in);
+      foot.addEventListener("mouseleave",icon_out);*/
+
+    </script>
+ 
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+  intent="WELCOME"
+  chat-title="Coffee-Shop"
+  agent-id="4a8700c4-b11d-46a4-be45-8f73c6ec94b8"
+  language-code="en"
+  ></df-messenge>
+     
+    
+  </body>
+</html>
+
+
+

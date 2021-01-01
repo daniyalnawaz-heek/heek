@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-signin-client_id" content="72559996172-49huok89g5oa146ad433d43thjhav3mv.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <title>LOGIN</title>
+ <!-- <link rel="stylesheet" href="login.css">-->
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&family=Trispace:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="head">
+
+    <h1 style="margin-left:600px;"> HEEK</h1>
+  </div>
+  <div class="cont">
+    <form action="/login" method="POST">
+
+
+     
+
+      <label for="username">username</label>
+      <input type="text" name="username" id="username" placeholder="Enter username"><br>
+
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" placeholder="Enter password">
+      
+      <button class="btn" >LOGIN</button>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+      
+    </form>
+    
+  </div>
+  <div class="base">
+
+    <p>don't have an account?</p><button class="btn"><a href="/signup">SIGN UP</a>
+    </div></button>
+  
+  
+</body>
+</html>
